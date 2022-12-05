@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat:wght@700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: 'Hind', sans-serif;
-    font-weight: 300;
     color: #8c8c8c;
 }
 
@@ -14,6 +19,37 @@ h1, h2 {
     color: #8c8c8c;
 }
 
+/* push the logo to the left and remove the underline */
+
 #logo {
     float: left;
+    text-decoration: none;
+    margin: 30px;
+}
+
+/* menu
+Applied float right to the ul and left to li to reverse the order of the items */
+
+ul {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin: 30px;
+}
+
+#menu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #8c8c8c;
+    color: #fff;
+}
+
+.current {
+    border-bottom: 1px solid #8c8c8c;
 }
