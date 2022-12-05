@@ -11,9 +11,15 @@ body {
     color: #8c8c8c;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #8c8c8c;
@@ -22,25 +28,23 @@ h1, h2 {
 /* push the logo to the left and remove the underline */
 
 #logo {
-    float: left;
     text-decoration: none;
-    margin-left: 30px;
-    width: 50%;
+    margin: 30px;
 }
 
-a > h1 {
-    margin-top: 30px;
+#logo a {
+    text-decoration: none;
 }
 
 /* Menu */
 
 /* Applied float right to the ul and left to li to reverse the order of the items */
-#menu ul  {
-    float: right;
+
+#menu {
+    display: flex;
 }
 
 #menu li {
-    float: left;
     list-style-type: none;
     margin: 30px;
 }
@@ -61,22 +65,25 @@ a > h1 {
     border-bottom: 1px solid #8c8c8c;
 }
 
-/* about section
+/* about section */
+
+section {
+    display: flex;
+}
 
 #about {
-    float: left;
-    margin-left: 30px;
-    width: 40%;
+    margin: 30px;
+    width: 50%;
 }
 
 #photo {
-    float: right;
-    margin-right: 30px;
-    width: 40%;
-    size: 1px;
+    margin: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
 }
 
-/* Footer
+/* Footer */
 
 footer {
     height: 150px;
@@ -96,4 +103,3 @@ footer {
     padding: 3%;
     color: #3a3a3a;
 }
-*/
