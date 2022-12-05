@@ -12,30 +12,55 @@
 </head>
 
 <body>
-        <!-- header with menu and logo -->
-        <header>
-            <a href="index.html">
-                <h1 id="logo">Ubiraci Costa Junior</h1>
-            </a>
-                <h2 id="logo">Full Stack Developer</h2>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="index.html" >Home</a>
-                    </li>
-                    <li>
-                        <a href="skills.html">Skills</a>
-                    </li>
-                    <li>
-                        <a href="cv.html">CV</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="current">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <hr>
-        </header>
+    <!-- header with menu and logo -->
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Ubiraci Costa Junior</h1>
+        </a>
+        <h2 id="logo">Full Stack Developer</h2>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="skills.html">Skills</a>
+                </li>
+                <li>
+                    <a href="cv.html">CV</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="current">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <h2>Would you like to contact me?</h2>
+    <p>Use the contact form below and send me a message</p>
+    <form action="validation_page.php">
+
+        <label for="fname">First Name *</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+        <label for="lname">Last Name *</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company" placeholder="Your company..">
+
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email_address" placeholder="Your email.." required>
+
+        <label for="subject">Subject *</label>
+        <input type="text" id="subject" name="subject" placeholder="Write a subject..">
+        
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" placeholder="Write your message here.." style="height:200px" required></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
 
     <!-- footer with social media icons -->
     <hr>
