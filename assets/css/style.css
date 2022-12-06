@@ -20,7 +20,8 @@ header {
 
 /* Headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #8c8c8c;
@@ -64,9 +65,13 @@ h1, h2 {
     border-bottom: 1px solid #8c8c8c;
 }
 
+p {
+    font-size: 1.5rem;
+}
+
 /* about section */
 
-section {
+#about-me {
     display: flex;
 }
 
@@ -103,6 +108,48 @@ section {
     font-size: 1.5rem;
 }
 
+/* Contact form section */
+
+#contact-form {
+    margin: 30px;
+}
+
+#contact-form-center {
+    width: 60%;
+    margin: auto;
+}
+
+#fname-lname, #company-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+#subject-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text-small {
+    background: transparent;
+    color: #8c8c8c;
+    width: 46%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.input-text-big {
+    background: transparent;
+    color: #8c8c8c;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    padding: 10px;
+}
+
 /* Footer */
 
 footer {
@@ -121,6 +168,5 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 3%;
-    color: #3a3a3a;
+    color: #8c8c8c;
 }
-

@@ -37,35 +37,34 @@
             </ul>
         </nav>
     </header>
-    <h2>Would you like to contact me?</h2>
-    <p>Use the contact form below and send me a message</p>
-    <form action="validation_page.php">
 
-        <label for="fname">First Name *</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+    <!-- Contact form section -->
+    <section id="contact-form">
+        <h2>Would you like to contact me?</h2>
+        <p>Use the contact form below and send me a message</p>
+        <form action="validation_page.php" method="post" id="contact-form-center">
 
-        <label for="lname">Last Name *</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+            <div id="fname-lname">
+                <input type="text" id="fname" name="firstname" placeholder="Your first name" class="input-text-small"
+                    required>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name" class="input-text-small" required>
+            </div>
+            <div id="company-email">
+                <input type="text" id="company" name="company" placeholder="Your company" class="input-text-small">
+                <input type="email" id="email" name="email_address" placeholder="Your email address" class="input-text-small"
+                    required>
+            </div>
+            <div id="subject-message">
+                <input type="text" id="subject" name="subject" placeholder="Write the subject" class="input-text-big">
+                <textarea id="message" name="message" placeholder="Write your message here" style="height:200px"
+                    class="input-text-big" required></textarea>
+            </div>
 
-        <label for="company">Company</label>
-        <input type="text" id="company" name="company" placeholder="Your company..">
+            <input type="submit" value="Submit">
 
-        <label for="email">Email Address *</label>
-        <input type="email" id="email" name="email_address" placeholder="Your email.." required>
-
-        <label for="subject">Subject *</label>
-        <input type="text" id="subject" name="subject" placeholder="Write a subject..">
-
-        <label for="message">Message *</label>
-        <textarea id="message" name="message" placeholder="Write your message here.." style="height:200px"
-            required></textarea>
-
-        <input type="submit" value="Submit">
-
-    </form>
-
+        </form>
+    </section>
     <!-- footer with social media icons -->
-    <hr>
     <footer>
         <ul class="social-networks">
             <li>
