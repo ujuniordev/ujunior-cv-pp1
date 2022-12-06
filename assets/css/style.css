@@ -20,8 +20,7 @@ header {
 
 /* Headings and logo */
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #8c8c8c;
@@ -58,6 +57,8 @@ h2 {
 #menu a:hover {
     background-color: #8c8c8c;
     color: #fff;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 /* Adds a line under the menu a to help the user locate himself within the site */
@@ -93,15 +94,17 @@ p {
     display: flex;
     flex-direction: column;
     margin: 30px;
+    text-align: center;
 }
 
 .fa-file-arrow-down {
     font-size: 60px;
-    color: #8c8c8c;
+    color: #1F51FF;
 }
 
 #download-icon {
     text-align: center;
+    margin: 30px;
 }
 
 #cv-download p {
@@ -112,6 +115,7 @@ p {
 
 #contact-form {
     margin: 30px;
+    text-align: center;
 }
 
 #contact-form-center {
@@ -137,7 +141,7 @@ p {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #8c8c8c;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 10px;
     font-size: 1rem;
     font-family: 'Hind', sans-serif;
@@ -149,7 +153,7 @@ p {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #8c8c8c;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 10px;
     font-size: 1rem;
     font-family: 'Hind', sans-serif;
@@ -160,11 +164,13 @@ p {
 }
 
 #submit-button {
-    background: #85bb65;
+    background: #1F51FF;
     height: 4em;
     width: 9em;
     font: bold 1.5rem 'Hind',sans-serif;
     text-align: center;
+    color: #fff;
+    border-radius: 5px;
 }
 
 /* Feedback page */
@@ -175,7 +181,11 @@ p {
 
 #feedback h2 {
     margin: 30px;
-    color: #85bb65;
+    color: #1F51FF;
+}
+
+#feedback p {
+    color: #000;
 }
 
 /* Footer */

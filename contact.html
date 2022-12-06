@@ -23,7 +23,7 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="index.html" class="current">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="skills.html">Skills</a>
@@ -32,7 +32,7 @@
                     <a href="cv.html">CV</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" class="current">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -41,23 +41,24 @@
     <!-- Contact form section -->
     <section id="contact-form">
         <h2>Would you like to contact me?</h2>
-        <p>Use the contact form below and send me a message</p>
+        <p>Use the contact form below and send me a message</p><br>
+        <span>The fields marked with * are mandatory</span>
         <form action="feedback.html" method="get" id="contact-form-center">
 
             <div id="fname-lname">
-                <input type="text" id="fname" name="firstname" placeholder="Your first name" class="input-text-small"
+                <input type="text" id="fname" name="firstname" placeholder="Your first name *" class="input-text-small"
                     required>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name" class="input-text-small"
+                <input type="text" id="lname" name="lastname" placeholder="Your last name *" class="input-text-small"
                     required>
             </div>
             <div id="company-email">
                 <input type="text" id="company" name="company" placeholder="Your company" class="input-text-small">
-                <input type="email" id="email" name="email_address" placeholder="Your email address"
+                <input type="email" id="email" name="email_address" placeholder="Your email address *"
                     class="input-text-small" required>
             </div>
             <div id="subject-message">
-                <input type="text" id="subject" name="subject" placeholder="Write the subject" class="input-text-big">
-                <textarea id="message" name="message" placeholder="Write your message here" style="height:200px"
+                <input type="text" id="subject" name="subject" placeholder="Write the subject *" class="input-text-big" required>
+                <textarea id="message" name="message" placeholder="Write your message here *" style="height:200px"
                     class="input-text-big" required></textarea>
             </div>
             <div id="submit">
