@@ -70,7 +70,7 @@ p {
     font-size: 1.5rem;
 }
 
-/* about section */
+/* About section */
 
 #about {
     margin: 30px;
@@ -93,6 +93,18 @@ p {
     margin: 30px;
 }
 
+/* Skills section */
+
+#skills {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#skills-container {
+    margin: 30px;
+}
 /* Download CV section */
 
 #cv-download {
