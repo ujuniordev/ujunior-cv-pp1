@@ -9,6 +9,10 @@
 body {
     font-family: 'Hind', sans-serif;
     color: #8c8c8c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
 
 /* Positioning the logo and the menu using display */
@@ -20,7 +24,8 @@ header {
 
 /* Headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #8c8c8c;
@@ -105,6 +110,12 @@ p {
 #skills-container {
     margin: 30px;
 }
+
+figure {
+    font-size: 2rem;
+    color: #000;
+}
+
 /* Download CV section */
 
 #cv-download {
@@ -141,7 +152,8 @@ p {
     margin-top: 30px;
 }
 
-#fname-lname, #company-email {
+#fname-lname,
+#company-email {
     display: flex;
     justify-content: space-between;
 }
@@ -184,7 +196,7 @@ p {
     background: #1F51FF;
     height: 4em;
     width: 9em;
-    font: bold 1.5rem 'Hind',sans-serif;
+    font: bold 1.5rem 'Hind', sans-serif;
     text-align: center;
     color: #fff;
     border-radius: 5px;
@@ -209,6 +221,7 @@ p {
 
 footer {
     height: 150px;
+    margin-top: 30px;
 }
 
 .social-networks {
