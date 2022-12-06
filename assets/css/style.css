@@ -72,20 +72,25 @@ p {
 
 /* about section */
 
-#about-me {
-    display: flex;
-}
-
 #about {
     margin: 30px;
-    width: 50%;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#about-me p {
+    margin: 30px;
+    text-align: justify;
 }
 
 #photo {
     margin: 30px;
-    width: 50%;
-    display: flex;
-    justify-content: end;
 }
 
 /* Download CV section */
