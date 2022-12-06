@@ -11,21 +11,22 @@ body {
     color: #8c8c8c;
 }
 
+/* Positioning the logo and the menu using display */
+
 header {
     display: flex;
     justify-content: space-between;
 }
 
-/* headings and logo */
+/* Headings and logo */
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #8c8c8c;
 }
 
-/* push the logo to the left and remove the underline */
+/* Remove the underline */
 
 #logo {
     text-decoration: none;
@@ -37,8 +38,6 @@ h2 {
 }
 
 /* Menu */
-
-/* Applied float right to the ul and left to li to reverse the order of the items */
 
 #menu {
     display: flex;
@@ -83,6 +82,27 @@ section {
     justify-content: end;
 }
 
+/* Download CV section */
+
+#cv-download {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.fa-file-arrow-down {
+    font-size: 60px;
+    color: #8c8c8c;
+}
+
+#download-icon {
+    text-align: center;
+}
+
+#cv-download p {
+    font-size: 1.5rem;
+}
+
 /* Footer */
 
 footer {
@@ -103,3 +123,4 @@ footer {
     padding: 3%;
     color: #3a3a3a;
 }
+
