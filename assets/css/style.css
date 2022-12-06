@@ -167,6 +167,17 @@ p {
     text-align: center;
 }
 
+/* Feedback page */
+
+#feedback {
+    text-align: center;
+}
+
+#feedback h2 {
+    margin: 30px;
+    color: #85bb65;
+}
+
 /* Footer */
 
 footer {
