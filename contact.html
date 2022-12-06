@@ -47,21 +47,22 @@
             <div id="fname-lname">
                 <input type="text" id="fname" name="firstname" placeholder="Your first name" class="input-text-small"
                     required>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name" class="input-text-small" required>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name" class="input-text-small"
+                    required>
             </div>
             <div id="company-email">
                 <input type="text" id="company" name="company" placeholder="Your company" class="input-text-small">
-                <input type="email" id="email" name="email_address" placeholder="Your email address" class="input-text-small"
-                    required>
+                <input type="email" id="email" name="email_address" placeholder="Your email address"
+                    class="input-text-small" required>
             </div>
             <div id="subject-message">
                 <input type="text" id="subject" name="subject" placeholder="Write the subject" class="input-text-big">
                 <textarea id="message" name="message" placeholder="Write your message here" style="height:200px"
                     class="input-text-big" required></textarea>
             </div>
-
-            <input type="submit" value="Submit">
-
+            <div id="submit">
+                <input type="submit" value="Send" id="submit-button" method="post" action="feedback.html">
+            </div>
         </form>
     </section>
     <!-- footer with social media icons -->

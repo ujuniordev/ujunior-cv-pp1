@@ -117,6 +117,7 @@ p {
 #contact-form-center {
     width: 60%;
     margin: auto;
+    margin-top: 30px;
 }
 
 #fname-lname, #company-email {
@@ -138,6 +139,8 @@ p {
     border: 1px solid #8c8c8c;
     border-radius: 2px;
     padding: 10px;
+    font-size: 1rem;
+    font-family: 'Hind', sans-serif;
 }
 
 .input-text-big {
@@ -148,6 +151,20 @@ p {
     border: 1px solid #8c8c8c;
     border-radius: 2px;
     padding: 10px;
+    font-size: 1rem;
+    font-family: 'Hind', sans-serif;
+}
+
+#submit {
+    text-align: center;
+}
+
+#submit-button {
+    background: #85bb65;
+    height: 4em;
+    width: 9em;
+    font: bold 1.5rem 'Hind',sans-serif;
+    text-align: center;
 }
 
 /* Footer */
