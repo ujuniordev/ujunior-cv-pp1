@@ -6,10 +6,10 @@
     border: none;
 }
 
-html {
+/*html {
     position: relative;
     min-height: 100%;
-}
+}*/
 
 body {
     font-family: 'Hind', sans-serif;
@@ -37,7 +37,6 @@ h2 {
 /* Remove the underline */
 
 #logo {
-    text-decoration: none;
     margin: 30px;
 }
 
@@ -137,7 +136,7 @@ p {
 figure {
     font-size: 2rem;
     color: #000;
-    margin-bottom: 40px;
+    margin: 30px;
 }
 
 /* Download CV section */
@@ -158,7 +157,7 @@ figure {
 }
 
 .fa-file-arrow-down {
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #1F51FF;
 }
 
@@ -203,19 +202,7 @@ figure {
     flex-direction: column;
 }
 
-.input-text-small {
-    background: transparent;
-    color: #8c8c8c;
-    width: 46%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #8c8c8c;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 1rem;
-    font-family: 'Hind', sans-serif;
-}
-
+.input-text-small,
 .input-text-big {
     background: transparent;
     color: #8c8c8c;
@@ -226,6 +213,14 @@ figure {
     padding: 10px;
     font-size: 1rem;
     font-family: 'Hind', sans-serif;
+}
+
+.input-text-small {
+    width: 46%;
+}
+
+#subject-message #message {
+    height: 200px;
 }
 
 #submit {
@@ -259,20 +254,20 @@ figure {
 
 /* Footer */
 
-footer {
+/*footer {
     margin-top: 30px;
     height: 50px;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-}
+}*/
 
 .social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -281,4 +276,40 @@ footer {
     margin: 1%;
     padding: 3%;
     color: #8c8c8c;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 900px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu li {
+        margin: 15px;
+    }
+
+    #menu a {
+        font-size: 1.5rem;
+    }
+
+    #about-me {
+        width: 90%;
+    }
+
+    #about {
+        margin: 0;
+    }
+
+
+    #skills-container {
+        justify-content: center;
+    }
 }
