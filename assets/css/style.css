@@ -278,9 +278,12 @@ figure {
     color: #8c8c8c;
 }
 
-/* Media queries */
+/* Media query for screens smalles than 900px */
 
 @media screen and (max-width: 900px) {
+    
+    /* Header and nav menu sections */
+
     header {
         display: flex;
         flex-direction: column;
@@ -300,6 +303,8 @@ figure {
         font-size: 1.5rem;
     }
 
+    /* About me section on the home */
+
     #about-me {
         width: 90%;
     }
@@ -308,6 +313,7 @@ figure {
         margin: 0;
     }
 
+    /* Skills container on the skills page */
 
     #skills-container {
         justify-content: center;
