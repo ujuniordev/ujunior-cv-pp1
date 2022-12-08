@@ -1,108 +1,93 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Curriculum Vitae website
+## Project Portfolio 1
 
-Welcome ujuniordev,
+This is a *Curriculum Vitae* website to display to possible recruiters and companies with job openings which I would like to apply to. The website contains a short presentation of myself, my coding skills, my CV in a more detailed form and a contact form.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User experience
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The user stories that were used to develop the website are listed below:
 
-## Gitpod Reminders
+ - **US 01 Header**
+As a desktop and mobile user, I want to access a menu so that I can navigate easily between the website pages.
+ - **US 02 Footer**
+As a desktop and mobile user, I want to have access to a footer so that I can easily find the owner's social media links
+ - **US 03 Homepage**
+As a desktop and mobile user, I want to have access to a homepage with an about section to understand the content of the website 
+ - **US 04 Skills page**
+As a desktop and mobile user, I want to have access to a skills page detailing the owner's skills so that I can understand the owner's main abilities
+ - **US 05 Download page**
+As a desktop and mobile user, I want to have access to a download page, with a download button so that I can download the owner's CV
+ - **US 06 Contact page**
+As a desktop and mobile user, I want to have access to a contact page so that I can contact the owner of the website for more information
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Features
+
+This website contains the following features/pages that were developed considering the user's stories listed in the section User experience above, they should all have responsive behavior allowing navigation on any device:
+
+ - **F1 Header (using US01)**
+The header is composed of 2 main elements: the logo and the menu. The logo was developed in pure text and links the user back to the homepage. The menu items are home, skills, cv, and contact. The main goal of the header is to provide easy and quick navigation since the user finds all available pages accessible very quickly.
+ - **F2 Footer (using US02)**
+The footer is a simple element containing 4 social media icons linking to the social media pages. The main idea is to have a quick way to easily learn more about the owner of the website through his social media.
+ - **F3 Homepage (using US3)**
+On the landing page of the website, the user will find an about me section, containing a brief summary of the owner's profile with a picture. The goal is to provide all information needed for a complete understanding of the website and push the users to discover more by navigating the other pages.
+ - **F4 Skills page (using US4)**
+The objective of this page is to list all the relevant skills of the website owner, in order to catch the attention of recruiters. This page is composed of a list of skills icons.
+ - **F5 Download page (using US5)**
+On the download page, the focus is on the download button, which allows the user to directly download the owner's CV for more detailed information about his profile. The page is simply composed of a call to action and a download button.
+ - **F6 Contact page (using US6)**
+On the contact page, the user is offered the possibility to send a message to the website owner using the fields: name, last name, company, email, subject, message, and a call to action to send the content via email to the website owner.
+By clicking on the SEND button, the customer receives feedback that his message was delivered, which UX-wise is a standard approach in providing the user with information after an action is taken.
+
+### Feature to be implemented
+
+ I would like to work on the contact form to make it actually send the message to the destination email, and  also, I would like to create separate files for the header and the footer and using backend programming, simply include those pages where necessary instead of copying the whole header and footer into all the files.
+
+## Design
+The following design choices were made: clean and simple fonts & color palettes, consistent with the website's main goal which is to sell the owner's profile as being a serious professional open for new positions.
+
+ - **Wireframes**
+
+	 - W01 Homepage
+
+![Homepage mockup](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/59cc03a74ad1e9d03c9478304fbbfed3ce060048/wireframes/home.png)
+![Homepage mockup mobile](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/main/wireframes/home-mobile.png)
+
+	 - W02 Skills page
+
+![Skills mockup](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/main/wireframes/skills.png)
+![Skills mockup - mobile](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/main/wireframes/skills-mobile.png)
+
+	 - W03 Download page
+
+![CV Download](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/96dad7bb3d5527ae1cf6b81e188a61dca21af005/wireframes/cv-download.png)
+![CV Download mobile](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/main/wireframes/cv-download-mobile.png)
+
+	 - W04 Contact page
+
+![Contact page](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/96dad7bb3d5527ae1cf6b81e188a61dca21af005/wireframes/contact.png)
+![Contact page mobile](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/main/wireframes/contact-mobile.png)
+
+## Technologies
+
+ - HTML5
+ - CSS3
+
+## Reference of Frameworks, font and image libraries and Programs used during the implementation
+
+ - [Google Fonts](https://fonts.google.com/) was used to add the Montserrat and Hind fonts into the CSS file and was used on all the pages
+ - [Font Pair](https://www.fontpair.co/) and [Font Joy](https://fontjoy.com/) were used to find combinations of fonts to be used in the website
+ - [Font Awesome](https://fontawesome.com/) was used to add the social network icons and the download CV icon
+ - [Flat Icon](https://www.flaticon.com/) was used to add the skills images to the skills page
+ - [Git](https://git-scm.com/) was used for version control through [Gitpod](https://gitpod.io/) terminal, using CLI git commands to commit and push to GitHub
+ - [GitHub](https://github.com/) is used as the repository for the entire project
+ - [Balsamiq](https://balsamiq.com/) was used to crete the mockups before the implementation of the website, during the planning phase
+
+ 
+
+
+
+
+
+
 
 `python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
