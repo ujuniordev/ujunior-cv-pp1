@@ -72,18 +72,75 @@ The following design choices were made: clean and simple fonts & color palettes,
  - HTML5
  - CSS3
 
-## Reference of Frameworks, font and image libraries and Programs used during the implementation
+## Frameworks, font and image libraries, Programs and code websites references used during the implementation
 
+### Frameworks
+ - [Git](https://git-scm.com/) was used for version control through [Gitpod](https://gitpod.io/) terminal, using CLI git commands to commit and push to GitHub
+ - [GitHub](https://github.com/) is used as the repository for the entire project
+### Libraries
  - [Google Fonts](https://fonts.google.com/) was used to add the Montserrat and Hind fonts into the CSS file and was used on all the pages
  - [Font Pair](https://www.fontpair.co/) and [Font Joy](https://fontjoy.com/) were used to find combinations of fonts to be used in the website
  - [Font Awesome](https://fontawesome.com/) was used to add the social network icons and the download CV icon
  - [Flat Icon](https://www.flaticon.com/) was used to add the skills images to the skills page
- - [Git](https://git-scm.com/) was used for version control through [Gitpod](https://gitpod.io/) terminal, using CLI git commands to commit and push to GitHub
- - [GitHub](https://github.com/) is used as the repository for the entire project
+### Programs
  - [Balsamiq](https://balsamiq.com/) was used to crete the mockups before the implementation of the website, during the planning phase
+### Code
+ - During the implementation of the website, it made necessary to look for examples and of code and different ways to achieve the required goal. Therefore a couple os community websites were used, such as the [W3C Schools website](https://www.w3schools.com/) was extensively used to check the syntax and code examples, such as forms
+ - [Wiki How](https://pt.wikihow.com/) was also used as to find means of make available a file to be downloaded
+ - [Developer Mozilla](https://developer.mozilla.org/) was used to help to understand the concept of using display flex orientation on the website
+ - [Stack Overflow](https://stackoverflow.com/) was also referenced to find help to understand how to use flex boxes, label images and so on
+ - And of course, the [Code Institute LMS](https://learn.codeinstitute.net/) was extensively used especially the Love Running walkthrough project. The footer was done based on the Love Running project´s footer.
+
+## Testing
+### Code Validation
+
+ - To check the HTML of the website, I used the [W3C HTML checker](https://validator.w3.org/) 
+ - The results are as follows:
+	 - Index page
+	![Index page html validator result image](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/8c1956848f3c5a24efa6b4a602981ac49718fa12/testing/html-validator-index.png)
+     - Skills page
+     ![Skills page html validator result image](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/8c1956848f3c5a24efa6b4a602981ac49718fa12/testing/html-validator-skills.png)
+     - CV Page 
+     ![CV page html validator result image](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/8c1956848f3c5a24efa6b4a602981ac49718fa12/testing/html-validator-cv.png)
+     - Contact page
+     ![Contact page html validator result image](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/8c1956848f3c5a24efa6b4a602981ac49718fa12/testing/html-validator-contact.png)
+     - Feedback page
+     ![Feedback page html validator result image](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/8c1956848f3c5a24efa6b4a602981ac49718fa12/testing/html-validator-feedback.png)
+- To check the CSS of the website, I used the [W3C CSS3 Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+- The result can be seen below:
+![CSS3 validator result image](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/8c1956848f3c5a24efa6b4a602981ac49718fa12/testing/css-validator.png)
+
+### Website Responsiveness
+To check the website´s responsiveness I carried out a Lighthouse test. The result can be seen below.
+Note that the test was made in an Incognito mode browser tab so there were no interferences from extensions from the browser.
+
+![Feedback page html validator result image](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/8c1956848f3c5a24efa6b4a602981ac49718fa12/testing/lighthouse.png)
+
+## Deployment
+
+The site is hosted within GitHub pages. To deploy it to the repository, the the steps below have to be followed:
+
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- All modifications to the code that have been pushed to the master branch using Git Push will take effect on the live project
+
+A link to the up and running project can be found here - [Ubiraci Costa Junior CV website](https://ujuniordev.github.io/ujunior-cv-pp1/feedback.html)
+
+# How to clone the repository
+ - Browse to https://github.com/ujuniordev/ujunior-cv-pp1, which is the repository where the project is located on GitHub
+ - Click on the "Code" button´s arrow to open the dropdown menu
+ - Select the HTTPs tab and copy the link given there
+ - Open “Git Bash” and change the current working directory to the location where you want the cloned directory to be stored
+ - Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone
+
+ ## Acknowledgements
+ A great and heartfull Thank You to my menthor Brian, who took the responsibility to help me during the course of the project in the best possible way. 
+ With great advice and insights from his resourceful mind, he helped me to complete this first major task of the entire program.
 
 
- 
+
+
 
 
 
