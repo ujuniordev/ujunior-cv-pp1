@@ -6,10 +6,10 @@
     border: none;
 }
 
-/*html {
+html {
     position: relative;
     min-height: 100%;
-}*/
+}
 
 body {
     font-family: 'Hind', sans-serif;
@@ -254,14 +254,14 @@ figure {
 
 /* Footer */
 
-/*footer {
+footer {
     margin-top: 30px;
     height: 50px;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-}*/
+}
 
 .social-networks {
     text-align: center;
