@@ -82,6 +82,7 @@ The following design choices were made: clean and simple fonts & color palettes,
  - [GitHub](https://github.com/) is used as the repository for the entire project
  - [Balsamiq](https://balsamiq.com/) was used to crete the mockups before the implementation of the website, during the planning phase
 
+
  
 
 
