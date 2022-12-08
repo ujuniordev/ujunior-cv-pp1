@@ -96,7 +96,7 @@ The following design choices were made: clean and simple fonts & color palettes,
 
 The testing plan was based on the features described for the website
 
-![Testing plan](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/8c1956848f3c5a24efa6b4a602981ac49718fa12/testing/testing-plan.png)
+![Testing plan](https://raw.githubusercontent.com/ujuniordev/ujunior-cv-pp1/554af15d179d40d787c50339770eda9ad16ff12f/testing/testing-plan.png)
 
 ### Code Validation
 
@@ -143,15 +143,3 @@ A link to the up and running project can be found here - [Ubiraci Costa Junior C
  ## Acknowledgements
  A great and heartfull Thank You to my menthor Brian, who took the responsibility to help me during the course of the project in the best possible way. 
  With great advice and insights from his resourceful mind, he helped me to complete this first major task of the entire program.
-
-
-
-
-
-
-
-
-
-
-
-`python3 -m http.server`
